@@ -3,15 +3,9 @@
 This is a simple, dependency-free Python script. Here's how to use it:
 
 ```sh
-python3 codex_reset_info.py
-```
-
-## Setup
-
-Download the live script from GitHub and run it:
-
-```sh
+# download the script
 curl -fsSLO https://raw.githubusercontent.com/pmxi/codex_reset/main/codex_reset_info.py
+# run it
 python3 codex_reset_info.py
 ```
 
