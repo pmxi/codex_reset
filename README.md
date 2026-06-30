@@ -15,6 +15,6 @@ curl -fsSLO https://raw.githubusercontent.com/pmxi/codex_reset/main/codex_reset_
 python3 codex_reset_info.py
 ```
 
-This script was created because the [Codex team now issues "banked resets"](https://x.com/OpenAI/status/2065225362544726371) that can be used to reset 5-hour and 7-day limits anytime, but they expire and their expiry date is not displayed anywhere. This script shows that.
+Codex now offers ["banked resets"](https://x.com/OpenAI/status/2065225362544726371) that let you reset 5-hour and 7-day limits on demand, but those resets expire and Codex does not show their expiration dates. This script displays those reset-credit details.
 
 Note: This will read your Codex `auth.json` file and calls the Codex backend using those credentials.
